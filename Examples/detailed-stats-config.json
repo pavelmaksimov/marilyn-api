@@ -1,0 +1,44 @@
+{
+    "channel_id": [],
+    "start_date": "2022-02-01",
+    "end_date": "2022-02-18",
+    "date_grouping": "day",
+    "grouping": "placement",
+    "filtering": [
+        {
+            "entity": "no",
+            "entities": []
+        },
+        {
+            "entity": "project",
+            "entities": [
+                4551
+            ]
+        }
+    ],
+    "custom_metrics": [],
+    "profiles": [],
+    "goals": [],
+    "with_vat": false,
+    "per_page": 200,
+    "sorting": "date",
+    "columns": [
+        "date",
+        "placement_id",
+        "placement_name",
+        "campaign_xid",
+        "channel_id",
+        "impressions",
+        "clicks",
+        "cpm_fact",
+        "reach_total_sum",
+        "viral_reach_total_sum",
+        "ctr",
+        "cost_fact",
+        "cpc_fact",
+        "orders",
+        "model_orders",
+        "revenue",
+        "revenue_model_orders"
+    ]
+}

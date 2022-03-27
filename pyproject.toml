@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "marilyn-api"
+version = "0.1.1"
+description = "Async client for Marilyn API"
+authors = ["pmaksimov <vur21@ya.ru>"]
+homepage = "https://github.com/pavelmaksimov/marilyn-api"
+readme = "README.md"
+keywords = ["client", "api", "python", "marilyn"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+aiohttp = "^3.8.1"
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
