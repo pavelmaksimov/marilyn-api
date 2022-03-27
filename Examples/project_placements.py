@@ -24,7 +24,7 @@ async def main(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Downloading detailed statistics to a JSON file"
+        description="Downloading project placements to a JSON file"
     )
     parser.add_argument("-r", "--api-root", required=True, type=str, help="Api root. Example https://app.mymarilyn.ru")
     parser.add_argument("-a", "--account", required=True, type=str, help="Account ID")
